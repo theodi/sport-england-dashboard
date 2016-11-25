@@ -1,183 +1,77 @@
-financial:
+ukgovcats:
   rows: 2
-  cols: 4
+  cols: 3
 
   metrics:
 
-    - metric: strategic-priority-investment
+    - metric: active-gov-cats
       colours:
         text: white
-        box: set_one_pink
-      type: pie
+        box: blue
+      type: number
+      from: '*'
+      to: '*'
       row: 1
       col: 1
-      height: 2
+      height: 1
       width: 1
 
-    - metric: bank-balance
+    - metric: total-sw1-cats
       colours:
         text: white
-        box: set_one_teal
-      type: target
+        box: khaki
+      type: number
+      from: '*'
+      to: '*'
       row: 1
       col: 2
+      height: 1
+      width: 1
 
-    - metric: lottery-payments
+    - metric: schrodingers-gov-cats
       colours:
         text: white
-        box: set_one_cyan
-      type: target
-      row: 1
-      col: 3
-
-    - metric: operating-cost
-      colours:
-        text: white
-        box: set_one_cyan
-      type: target
-      row: 2
-      col: 2
-
-    - metric: outstanding-aged-lottery-award-balances
-      colours:
-        text: white
-        box: set_one_pink
+        box: orange
       type: number
-      row: 1
-      col: 4
-
-    - metric: outstanding-aged-lottery-awards-volume
-      colours:
-        text: white
-        box: set_one_teal
-      type: number
-      row: 2
-      col: 4
-
-    - metric: grant-processing-cost
-      colours:
-        text: white
-        box: set_one_pink
-      type: target
+      from: '*'
+      to: '*'
       row: 2
       col: 3
+      height: 1
+      width: 1
 
-performance:
-  rows: 2
-  cols: 4
-
-  metrics:
-
-    - metric: participation
-      colours:
-        text: white
-        box: set_three_mauve
-      type: chart
-      from: '*'
-      to: '*'
-      row: 1
-      col: 1
-
-    - metric: outdoor-space
-      colours:
-        text: white
-        box: set_three_teal
-      type: chart
-      from: '2005-01-01'
-      to: '*'
-      row: 2
-      col: 1
-
-    - metric: inactivity
-      colours:
-        text: white
-        box: set_three_teal
-      type: chart
-      from: '*'
-      to: '*'
-      row: 1
-      col: 2
-
-    - metric: volunteering
-      colours:
-        text: white
-        box: set_three_mauve
-      type: chart
-      from: '*'
-      to: '*'
-      row: 1
-      col: 3
-
-    - metric: under-utilised-facilities
-      colours:
-        text: white
-        box: set_three_mauve
-      type: number
-      row: 2
-      col: 2
-
-    - metric: csaf-participation
-      colours:
-        text: white
-        box: set_three_teal
-      type: pie
-      row: 2
-      col: 4
-
-    - metric: physical-literacy
-      colours:
-        text: white
-        box: set_three_teal
-      type: number
-      from: '*'
-      to: '*'
-      row: 1
-      col: 4
-
-    - metric: coaching-net-promoter-score
-      colours:
-        text: white
-        box: set_three_mauve
-      type: number
-      row: 2
-      col: 3
-
-test:
-  rows: 2
-  cols: 2
-
-  metrics:
-
-    - metric: participation
-      colours:
-        text: white
-        box: blue
-      type: chart
-      from: '*'
-      to: '*'
-      row: 1
-      col: 1
-
-    - metric: lottery-payments
-      colours:
-        text: white
-        box: green
-      type: target
-      row: 2
-      col: 1
-
-    - metric: facilities
-      colours:
-        text: white
-        box: blue
-      type: number
-      row: 1
-      col: 2
-
-    - metric: csaf-participation
+    - metric: total-gov-cats
       colours:
         text: white
         box: burgundy
-      type: pie
+      type: number
+      from: '*'
+      to: '*'
       row: 2
       col: 2
+      height: 1
+      width: 1
+
+    - metric: total-uk-cats
+      colours:
+        text: white
+        box: green
+      type: number
+      from: '*'
+      to: '*'
+      row: 1
+      col: 3
+      height: 1
+      width: 1
+
+    - metric: total-uk-government-departments
+      colours:
+        text: white
+        box: gold
+      type: number
+      from: '*'
+      to: '*'
+      row: 2
+      col: 1
+      height: 1
+      width: 1
